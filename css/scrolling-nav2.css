@@ -1,0 +1,127 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.social-icons {
+    font-size: 40px;
+    text-align: right;
+}
+
+.social-icons a {
+    color: purple;
+}
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    /*background: #fff;*/
+    background-image: url("../img/kiyo-bg.jpg");
+}
+
+.about-section {
+    height: auto;
+    padding-top: 250px;
+    text-align: center;
+    background: #eee;
+    padding-bottom: 175px;
+    background-image: url("../img/kiyo-bg.jpg");
+}
+
+.resume-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.portfolio-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.effect1{
+    background-color: #f2f2f2;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.container.effect1{
+    padding: 70px;
+}
+
+.spand{
+color: #f1d204;
+}
+
+.lang-icons{
+    font-size: 60px;
+    display: inline-block;
+}
+
+.colored-purple{
+    color: purple;
+}
+
+.profile-box{
+    border: 1px solid rgba(133,133,133,.15);
+    background-color: #fff;
+    -moz-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    box-shadow: 0 0 8px rgba(0,0,0,.09);
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+.profile-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -80px;
+    width:300px;
+    height:400px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+    border-radius: 3% 3% 0 0;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
