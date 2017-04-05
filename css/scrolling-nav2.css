@@ -33,7 +33,14 @@ html {
 }
 
 .social-icons a {
-    color: purple;
+    color: #884dff;
+}
+a:link{
+    text-decoration: none;
+    color: #884dff;
+}
+a:hover{
+    color: black;
 }
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
@@ -53,28 +60,57 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #eee;
     padding-bottom: 175px;
-    background-image: url("../img/kiyo-bg.jpg");
+    background: url("../img/kiyo-bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 2px solid #884dff;
+}
+.jumbotron.about{
+    margin-bottom: 100px;
+    border-radius: 0%;
+    background: none;
+    color: white;
+}
+.line-break{
+    margin: 0 auto;
+    width: 400px;
+    border-top: 1px solid white;
+    padding: 5px;
 }
 
 .resume-section {
-    height: 100%;
+    height: auto;
     padding-top: 150px;
     text-align: center;
     background: #fff;
+    padding-bottom: 175px;
+    background: url("../img/eheiji.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 2px solid #884dff;
 }
-
+.resume-icons{
+    color: #884dff;
+    font-size: 40px
+}
 .contact-section {
-    height: 100%;
+    height: auto;
     padding-top: 150px;
     text-align: center;
     background: #fff;
+    border-bottom: 2px solid #884dff;
 }
 
 .portfolio-section {
-    height: 100%;
+    height: auto;
     padding-top: 150px;
     text-align: center;
     background: #eee;
+    border-bottom: 2px solid #884dff;
 }
 
 .effect1{
@@ -86,28 +122,25 @@ of those sections to manage the look and feel of the site. */
     padding: 70px;
 }
 
-.spand{
-color: #f1d204;
-}
-
 .lang-icons{
     font-size: 60px;
     display: inline-block;
 }
 
 .colored-purple{
-    color: purple;
+    color: #884dff;
 }
 
 .profile-box{
-    border: 1px solid rgba(133,133,133,.15);
+    border: 2px solid rgba(133,133,133,.15);
     background-color: #fff;
-    -moz-box-shadow: 0 0 8px rgba(0,0,0,.09);
-    -webkit-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    -moz-box-shadow: 0 0 15px rgba(0,0,0,.09);
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.09);
     box-shadow: 0 0 8px rgba(0,0,0,.09);
     display: inline-block;
     text-align: center;
     margin: auto;
+    font-size: 16px;
 }
 
 .profile-pic{
@@ -116,10 +149,10 @@ color: #f1d204;
     margin-right: auto;
     position: relative;
     margin-top: -80px;
-    width:300px;
-    height:400px;
+    width:250px;
+    height:350px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
-    border-radius: 3% 3% 0 0;
+    border-radius: 50%;
 }
 .col-centered{
     float: none;
