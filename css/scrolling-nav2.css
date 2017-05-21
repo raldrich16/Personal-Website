@@ -81,6 +81,12 @@ of those sections to manage the look and feel of the site. */
     border-top: 1px solid white;
     padding: 5px;
 }
+.black-line-break{
+    width: full;
+    border-top: 2px solid black;
+    padding: 5px;
+	align: left;
+}
 
 .resume-section {
     height: auto;
